@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hiveer Li from Sichuan chengdu.
+Hiveer Li from Sichuan Chengdu.
 
 ### Contact me
 
