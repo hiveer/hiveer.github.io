@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- {% for post in site.tech_posts %} -->
+  <!-- <h2>{{ item.title }}</h2> -->
+  <!-- <p>{{ item.description }}</p> -->
+  <!-- <p><a href="{{ item.url }}">{{ item.title }}</a></p> -->
+<!-- {% endfor %} -->
+
+
+<div class="posts">
+  {% for post in site.tech %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
